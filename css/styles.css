@@ -94,16 +94,16 @@ input {
   }
 }
 
-/*@keyframes onFocus {
-    to {
-        transform: rotateY(0deg);
-    }
-    from {
-        transform: rotateY(90deg);
-    }
+@keyframes onFocus {
+  to {
+    transform: rotateY(0deg);
+  }
+  from {
+    transform: rotateY(90deg);
+  }
 }
 
-.containers {
+/*.containers {
   width: 520px;
   margin: 20px auto;
 }
