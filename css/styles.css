@@ -43,13 +43,13 @@ h3 {
   bottom: 50px;
 }
 
-/*.footer a{
-  color : #5f27cd;
-  font-family:"Dosis",sans-serif;
+.footer a {
+  color: #5f27cd;
+  font-family: "Dosis", sans-serif;
   text-decoration: none;
 }
 
-.form {
+/*.form {
     position: relative;
 }
 
