@@ -49,11 +49,11 @@ h3 {
   text-decoration: none;
 }
 
-/*.form {
-    position: relative;
+.form {
+  position: relative;
 }
 
-input {
+/*input {
     width: 350px;
     height: 60px;
     padding: 10x;
