@@ -75,12 +75,12 @@ input {
   font-size: 28px;
 }
 
-/*.blink {
-    transform: rotate(90deg);
-    animation: outFocus 1s infinite ease-in-out;
+.blink {
+  transform: rotate(90deg);
+  animation: outFocus 1s infinite ease-in-out;
 }
 
-.search {
+/*.search {
     transition: 1s;
     animation: onFocus 1s 1 ease-in-out;
 }
