@@ -1,4 +1,8 @@
 body {
+    background-color: #e1deff;
+}
+
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +23,92 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+.container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+h3{
+  font-family:"Dosis",sans-serif;
+  font-size: 28px;
+  color : #5f27cd;
+}
+
+.footer{
+  margin: auto;
+  text-align: center;
+  position: absolute;
+  line-height: 1.8;
+  width: 150px;
+  height: 30px;
+  border: 2px solid #5f27cd;
+  border-radius: 10px;
+  bottom: 50px;
+}
+
+.footer a{
+  color : #5f27cd;
+  font-family:"Dosis",sans-serif;
+  text-decoration: none;
+}
+
+.form {
+    position: relative;
+}
+
+input {
+    width: 350px;
+    height: 60px;
+    padding: 10x;
+    padding-left: 60px;
+    border-radius: 10px;
+    background-color: #5f27cd;
+    border: none;
+    color: white;
+    font-size: 24px;
+    font-family: "Dosis", sans-serif;
+  outline:none
+}
+
+.ico {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-size: 28px;
+}
+
+.blink {
+    transform: rotate(90deg);
+    animation: outFocus 1s infinite ease-in-out;
+}
+
+.search {
+    transition: 1s;
+    animation: onFocus 1s 1 ease-in-out;
+}
+
+@keyframes outFocus {
+    to {
+        opacity: 0;
+    }
+    from {
+        opacity: 1;
+    }
+}
+
+@keyframes onFocus {
+    to {
+        transform: rotateY(0deg);
+    }
+    from {
+        transform: rotateY(90deg);
+    }
 }
 
 .containers {
