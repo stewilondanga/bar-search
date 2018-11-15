@@ -80,12 +80,12 @@ input {
   animation: outFocus 1s infinite ease-in-out;
 }
 
-/*.search {
-    transition: 1s;
-    animation: onFocus 1s 1 ease-in-out;
+.search {
+  transition: 1s;
+  animation: onFocus 1s 1 ease-in-out;
 }
 
-@keyframes outFocus {
+/*@keyframes outFocus {
     to {
         opacity: 0;
     }
