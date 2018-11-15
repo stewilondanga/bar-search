@@ -85,16 +85,16 @@ input {
   animation: onFocus 1s 1 ease-in-out;
 }
 
-/*@keyframes outFocus {
-    to {
-        opacity: 0;
-    }
-    from {
-        opacity: 1;
-    }
+@keyframes outFocus {
+  to {
+    opacity: 0;
+  }
+  from {
+    opacity: 1;
+  }
 }
 
-@keyframes onFocus {
+/*@keyframes onFocus {
     to {
         transform: rotateY(0deg);
     }
