@@ -67,15 +67,15 @@ input {
   outline: none
 }
 
-/*.ico {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    color: white;
-    font-size: 28px;
+.ico {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: white;
+  font-size: 28px;
 }
 
-.blink {
+/*.blink {
     transform: rotate(90deg);
     animation: outFocus 1s infinite ease-in-out;
 }
